@@ -7,6 +7,7 @@
 *{
   margin: 0;
   font-family: 'Poppins', sans-serif;
+
 }
 
 .nav-bar{
@@ -90,8 +91,56 @@
   font-size: larger;
 }
 
-.login_id{
-  border: 0px solid white;
+#login_id{
   border-bottom: 1px solid black; 
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   width: 450px;
+  outline: none;
+  color: black;
+}
+
+#login_id input {
+  color: black;
+}
+
+#login_id:focus{
+  border-right: 0px solid white;
+  border-left:0px solid white;
+  border-top:0px solid white;
+}
+
+.password{
+  font-size: larger;
+  display: flex;
+  margin-top: 145px;
+  margin-left: 22px;
+}
+
+.password input {
+  margin-left: 10px;
+  user-select: none;
+}
+
+.credits{
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  height: 56px;
+  width: 100%;
+  background-color: rgb(184, 145, 246);
+  justify-content: center;
+  align-items:  center;
+  font-weight: 600;
+  color: white;
+  font-size: smaller;
+}
+
+.credits p {
+  padding-left: 4px;
+}
+
+.credits a {
+  display: flex;
 }

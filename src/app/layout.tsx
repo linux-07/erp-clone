@@ -3,7 +3,7 @@ import "./globals.css";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "ERP clone better than the orignal",
+  title: "SBPPS",
   description: "Created by the students of SPBBS",
 };
 
