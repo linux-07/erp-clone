@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
@@ -63,13 +64,7 @@ export default function Home() {
           </span>
         </div>
       </main>
-      <footer>
-        <div className="credits">
-          <a href="https://www.edupluscampus.com/" target="_blank">
-            &copy;<p> 2024 Powered by Eduplus campus</p>
-          </a>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
