@@ -1,17 +1,10 @@
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <nav>
-        <div className="nav-bar">
-          <div className="logo">
-            <a href="https://www.edupluscampus.com/" target="_blank">
-              <div className="educampus"></div>
-            </a>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
       <main>
         <div className="content">
           <span className="credentials w-full">
