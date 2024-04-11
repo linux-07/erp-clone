@@ -17,27 +17,6 @@
   align-items: center;
 }
 
-.logo{
-  background-image: url(/box1.png);
-  height: 94px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: 5px;
-  display: flex;
-  align-items: center;
-}
-
-.educampus{
-  background-image: url(/box2.png);
-  height: 94px;
-  width: 140px;
-  display: flex;
-  align-items: center;
-  background-repeat: no-repeat;
-  margin-left: 1300px;
-  background-size: contain;
-}
-
 .main{
   text-align: center;
   justify-content: center;
