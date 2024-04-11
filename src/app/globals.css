@@ -2,32 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.nav-bar{
+  height: 95px;
+  background-color: rgb(184, 145, 246);
+  display: flex;
+  align-items: center;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.logo{
+  background-image: url(/box1.png);
+  height: 94px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.educampus{
+  background-image: url(/box2.png);
+  height: 94px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  margin-left: 1300px;
+  background-size: contain;
+}
+
+.main{
+  text-align: center;
+  justify-content: center;
+}
+
+.credentials{
+  position: absolute;
+  background-color: white;
+  height: 350px;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 10px 0px black;
+  border-radius: 3px;
+  border-radius: 3px;
+}
+
+.fa-solid {
+  height: 100px;
+  width: 100px;
+  font-weight: 700;
+}
+
+.nav{
+  height: 50px;
+  background-color: rgb(184, 145, 246);
+  border-radius: 3px;
+  border-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.nav p {
+  color: white;
+  font-family: calibri;
+  font-size: 1.55rem;
+  margin-left: 10px;
+ padding-top: 8px;
+}
+.credits{
+  background-color: rgb(184, 145, 246);
+  
+}
+
+.email{
+  color: gray;
+  position: absolute;
+  top: 25%;
+  left: 20px;
+  font-size: larger;
+}
+
+.login_id{
+  border: 0px solid white;
+  border-bottom: 1px solid black; 
+  width: 450px;
 }
